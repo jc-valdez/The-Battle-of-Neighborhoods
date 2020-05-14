@@ -1,7 +1,6 @@
 ##### Justin Valdez 
 
 # The Battle of Neighborhoods 
-
 # Applied Data Science Capstone by IBM/Coursera
 
 ### Table of contents
@@ -13,7 +12,6 @@
 * [Conclusion](#conclusion)
 
 ## Introduction/Business Probelm: <a name="introduction"></a>
-
 
 ### 1. Background
 <u>**New York City (NYC)**</u>, The City, is the most poulous city in the United States. NYC has an estimated poulation of 8,398,749 distrubuted over about 302.6 square miles in 2018.
@@ -29,7 +27,6 @@ The aim of this report is to study and analyze the neighborhoods of New York Cit
 The information provided by this project would be valuable for people who are interested or considering in relocating to different parts of the world. 
 
 ## 2. Problem Description
-
 
 Now let me explain the context of this Capstone project through a scenario that can better be understood. Say you're preparing to move out from your parent's or guardian's home. You love your family, loved ones, and friends, but it's now time for you to move on to greater things and experience new ways of life. 
 
@@ -53,10 +50,10 @@ This part of the project represents the main component of the analysis where any
   - Download and Explore Dataset
   - Transform Data Into Pandas Dataframe
   - Use Geopy Library in Order to get The Latitude and Longitude Values of New York City
-  - Create Map of New York With Neighborhoods Superimposed on Top
+  - Create Map of New York With Neighborhoods Superimposed on Top *(See image of map below)*
   - Segmenting and Clustering Only the Neighborhoods in Manhattan
   - Retrieving the Geopgrpahical Coordinates of Manhattan
-  - Visualization of Manhattan and the Neighborhoods
+  - Visualization of Manhattan and the Neighborhoods *(See image of map below)*
   
 * Utilizing Foursquare API to Explore the Neighborhoods
   - Explore the First Neighborhood in the Dataframe
@@ -79,8 +76,12 @@ This part of the project represents the main component of the analysis where any
   - Display Each Neighborhood With the Top 5 Most Common Venues
   - Put This Data Into a Pandas Dataframe
   
+* Cluster Neighborhoods
+  - Create New Dataframe That Includes the Cluster
+  - Visualizing the Resulting Clusters *(See image of map below)*
+  - Examine Clusters
+  
 ## Results <a name="results"></a>
-
 
 The goal of this analysis was to find out about the neighborhoods and their popular venues for a person planning to relocate within the city of New York.
 
@@ -88,16 +89,13 @@ As we analyzed the 5 clusters, we can determine a suitable neighborhood for a re
 
 ## Discussion
 
-
 As seen in the table above, if a person wishes to move to New York, this can be a good option for them. For instance, this cluster contains restauraunts, gyms, etc. This is just one example of how our data analysis can help people relocate from one part of the world to another. 
 
 ## Conclusion <a name="conclusion"></a>
 
-
 The world we live contains data everywhere we go, where many real-life problems or scenarios can be used to find solutions to these problems. This project showed that data was used to cluster neighborhoods in New York based on the most common venues in those neighborhoods. Therefore, someone that is planning to relocate where there are shops, restaurants, and gyms can use this data as a guide.
 
 ## References
-
 
 * New York City Data
   - The following Catalog Data page was scraped to pull out the necessary information: https://data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv?accessType=DOWNLOAD https://geo.nyu.edu/catalog/nyu_2451_34572
@@ -109,3 +107,12 @@ The world we live contains data everywhere we go, where many real-life problems 
 
 * Foursquare API
   - The following site was used to get latitude, longitude, and data for venues: https://foursquare.com
+  
+## Create Map of New York With Neighborhoods Superimposed on Top
+![](https://raw.githubusercontent.com/jc-valdez/The-Battle-of-Neighborhoods/master/Map%20of%20New%20York%20With%20Neighborhoods%20Superimposed%20on%20Top.JPG)
+
+## Visualization of Manhattan and the Neighborhoods
+![](https://raw.githubusercontent.com/jc-valdez/The-Battle-of-Neighborhoods/master/Visualization%20of%20Manhattan%20and%20the%20Neighborhoods.JPG)
+
+## Visualizing the Resulting Clusters
+![](https://raw.githubusercontent.com/jc-valdez/The-Battle-of-Neighborhoods/master/Visualizing%20the%20Resulting%20Clusters.JPG)
