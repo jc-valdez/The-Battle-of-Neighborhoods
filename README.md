@@ -11,14 +11,14 @@
 * [Results and Discussion](#results)
 * [Conclusion](#conclusion)
 
-## Introduction/Business Probelm: <a name="introduction"></a>
+## Introduction/Business Problem: <a name="introduction"></a>
 
 ### 1. Background
-<u>**New York City (NYC)**</u>, The City, is the most poulous city in the United States. NYC has an estimated poulation of 8,398,749 distrubuted over about 302.6 square miles in 2018.
+<u>**New York City (NYC)**</u>, The City, is the most populous city in the United States. NYC has an estimated population of 8,398,749 distributed over about 302.6 square miles in 2018.
 
-NYC is located at the southern tip of the U.S. state of New york, the city is the center of the New York metropitan area. With the amount of people in the metropolitan statistical area, NYC is one of the world's most populous megacities. Therefore, NYC is best described as the cultural, financial, and media capital of the world. The city influences commerce, entertainment, research, technology, education, politices, tourism, art, fashion, and sports.
+NYC is located at the southern tip of the U.S. state of New York, the city is the center of the New York metropolitan area. With the amount of people in the metropolitan statistical area, NYC is one of the world's most populous mega cities. Therefore, NYC is best described as the cultural, financial, and media capital of the world. The city influences commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports.
 
-NYC is set on one of the world's largest natural harbors, so it is composed of five boroughs - Brooklyn, Queens, Manhattan, the Bronx, and Staten Island - in which each is a county of the State of New York
+NYC is set on one of the world's largest natural harbors, so it is composed of five boroughs - Brooklyn, Queens, Manhattan, the Bronx, and Staten Island - in which each is a county of the State of New York.
 
 ### Objective
 The aim of this report is to study and analyze the neighborhoods of New York City, group them into similar clusters and analyze those clusters to gather meaningful information. The data for New York has been touched upon on previous projects, but will be further finished.
@@ -27,7 +27,6 @@ The aim of this report is to study and analyze the neighborhoods of New York Cit
 The information provided by this project would be valuable for people who are interested or considering in relocating to different parts of the world. 
 
 ## 2. Problem Description
-
 Now let me explain the context of this Capstone project through a scenario that can better be understood. Say you're preparing to move out from your parent's or guardian's home. You love your family, loved ones, and friends, but it's now time for you to move on to greater things and experience new ways of life. 
 
 So, say you receive a job offer from a great company in *Manhattan, New York*. The company is offering a great pay and benefits. You have to decide to where in Manhattan you will stay and start your new life.
@@ -45,14 +44,14 @@ https://geo.nyu.edu/catalog/nyu_2451_34572
   
 ## 3. Methodology <a name="methodology"></a>
 
-This part of the project represents the main component of the analysis where any exploratory data that was done, such as any inferential statistical testing that was performed, if any, and what machine learnings were used and why.
-* Proccessing
+This part of the project represents the main component of the analysis where any exploratory data that was done, such as any inferential statistical testing that was performed, if any, and what machine learning were used and why.
+* Processing
   - Download and Explore Dataset
   - Transform Data Into Pandas Dataframe
   - Use Geopy Library in Order to get The Latitude and Longitude Values of New York City
   - Create Map of New York With Neighborhoods Superimposed on Top *(See image of map below)*
   - Segmenting and Clustering Only the Neighborhoods in Manhattan
-  - Retrieving the Geopgrpahical Coordinates of Manhattan
+  - Retrieving the Geographical Coordinates of Manhattan
   - Visualization of Manhattan and the Neighborhoods *(See image of map below)*
   
 * Utilizing Foursquare API to Explore the Neighborhoods
@@ -89,7 +88,7 @@ As we analyzed the 5 clusters, we can determine a suitable neighborhood for a re
 
 ## Discussion
 
-As seen in the table above, if a person wishes to move to New York, this can be a good option for them. For instance, this cluster contains restauraunts, gyms, etc. This is just one example of how our data analysis can help people relocate from one part of the world to another. 
+As seen in the table above, if a person wishes to move to New York, this can be a good option for them. For instance, this cluster contains restaurantss, gyms, etc. This is just one example of how our data analysis can help people relocate from one part of the world to another. 
 
 ## Conclusion <a name="conclusion"></a>
 
