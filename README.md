@@ -3,7 +3,7 @@
 # The Battle of Neighborhoods 
 
 # Applied Data Science Capstone by IBM/Coursera
-_______________________________________________________________________________________________________________________________________
+
 ### Table of contents
 * [Introduction/Business Problem](#introduction)
 * [Data](#data)
